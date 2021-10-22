@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    height: 100vh;
+}
+html {
+    font-size: 1rem;
+}
+body {
+    background-image: url(./devolution.png);
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Oswald, sans-serif;
+}
+#countdown {
+    margin-top: 100px;
+    text-align: center;
+}
+#time {
+    display: flex;
+    justify-content: space-around;
+}
+#time > div {
+    margin: 0 20px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-variant: small-caps;
+}
+#time > div > span {
+    font-size: 4.5rem;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
