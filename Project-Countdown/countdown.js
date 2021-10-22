@@ -25,4 +25,4 @@ function countdown() {
 }
 
 const countdownInterval = setInterval(countdown, 1000);
-countdown(); //Prima invocazione manuale, dato che setInterval invoca per la prima volta la funzione dopo 1 secondo
+countdown();
